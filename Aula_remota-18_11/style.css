@@ -1,0 +1,76 @@
+:root {
+    color-scheme: light;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #f0f7ff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    border: 1px solid #d0e1fd;
+}
+
+h2 {
+    color: #0d6efd;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0d6efd;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0b5ed7;
+}
+
+#mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
